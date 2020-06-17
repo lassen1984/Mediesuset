@@ -1,0 +1,48 @@
+nav{
+  padding: 1em 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 50px;
+
+
+figure{
+  width: 120px;
+  align-self: center;
+  align-items: center;
+  display: flex;
+
+img{
+  width: 100%;
+}
+
+figcaption{
+margin-left: 1em;
+}
+}
+
+
+ul{
+  display: flex;
+  align-self: flex-end;
+  position: relative;
+
+li{
+  position: relative;
+  display: block;
+  padding: 1em;
+
+  ul{
+    position: absolute;
+    display: block;
+  }
+
+  span{
+    align-self: center;
+    position: absolute;
+    bottom: -0.2em;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+}
+}
+}
